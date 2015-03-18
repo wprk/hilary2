@@ -51,11 +51,11 @@ jQuery(document).ready(function() {
 	    Counters
 	*/
 	$('.counter-container').waypoint(function() {
-		$('.counter-box h4').countTo();
+		$('.counter-box h5').countTo();
 	}, { offset: '100%' });
 	
 	$('.counters-container').waypoint(function() {
-		$('.counters-container .counter-box h4').countTo();
+		$('.counters-container .counter-box h5').countTo();
 	}, { offset: '100%' });
 	
 	/*
