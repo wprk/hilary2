@@ -540,6 +540,14 @@ ul.navbar-nav li a:focus { background: none; color: #EAA75B; outline: 0; }
 .scroll-to-top a { color: #ddd; }
 .scroll-to-top a:hover, .scroll-to-top a:focus, .scroll-to-top a:active { outline: 0; opacity: 0.6; color: #ddd; }
 
+.contact_phone {
+	font-size: 22px;
+}
+@media (min-width: 768px) {
+	.contact_phone {
+		font-size: 32px;
+	}
+}
 
 /***** Footer *****/
 
